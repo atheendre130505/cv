@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script>
+  document.write(x+'\n')
+  var x//hoisting
+  document.write(x+'\n')
+  var x=10//declaring
+  document.write(z+"\n")
+  var x=12//redefining
+  document.write(x+'\n')
+  x=23//redeclaring
+  document.write(x+'\n')
+
+  document.write(z+"\n")
+  let z//hoisting does not work
+  document.write(z+"\n")
+  let z=2//declaring
+  document.write(z+"\n")
+  let z=1//redeclaring does not work
+  document.write(z+"\n")
+  z=3//redefine
+  document.write(z+"\n")
+
+  document.write(y+"\n")
+  const y//hoisting
+  document.write(y+"\n")
+  const y=2//declaring
+  document.write(y+"\n")
+  const y=1//redeclaring doesnot work
+  document.write(y+"\n")
+  y=3//redefining does not work
+  document.write(y+"\n")
+
+  
+</script>
+</body>
+
+</html>
